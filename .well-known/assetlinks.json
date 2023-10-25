@@ -6,4 +6,20 @@
     "sha256_cert_fingerprints":
     ["AB:62:F0:44:B7:4A:92:BC:77:5F:16:EF:A1:54:1D:F7:EF:3B:82:C2:DF:F8:6B:8B:42:49:BA:CC:02:29:3A:BE"]
   }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://ahmetkokden.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.dmall.mfandroid",
+    "sha256_cert_fingerprints":
+    ["AB:62:F0:44:B7:4A:92:BC:77:5F:16:EF:A1:54:1D:F7:EF:3B:82:C2:DF:F8:6B:8B:42:49:BA:CC:02:29:3A:BE"]
+  }
 }]
